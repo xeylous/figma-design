@@ -16,7 +16,7 @@ const Sidebar = () => {
             </button>
 
             <div className={`
-        h-[calc(100vh)] bg-blue-600 flex flex-col items-center p-4
+        h-full bg-blue-600 flex flex-col items-center p-4
         transform transition-transform duration-300 ease-in-out
         lg:translate-x-0 lg:w-28 sm:w-12
         ${isMobileMenuOpen ? 'w-32 translate-x-0' : 'w-32 -translate-x-full'}

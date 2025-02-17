@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Landing from "@/components/landing";
 import Sidebar from "@/components/sidebar";
+import Users from "@/components/Users";
+import Searchbar from "@/components/searchbar";
+import ProfileSummary from "@/components/activeprofile";
 
 export default function Home() {
   return (
@@ -11,9 +14,15 @@ export default function Home() {
       </div>
 
       {/* Main content area with landing page */}
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1">
         <Landing />
       </div>
     </div>
+  //   <>
+  //   <div className="p-0 m-0 flex flex-row">
+  //   <Users />
+  //   <ProfileSummary />
+  // </div> 
+  // </>
   );
 }
